@@ -1,0 +1,80 @@
+.history-container {
+    margin: auto;
+    text-align: center;
+  }
+
+  .history-swiper {
+    width: 1160px;
+  }
+  
+  .history-title {
+    font-size: 2rem;
+    color: #000000c7;
+    margin-bottom: 20px;
+  }
+  
+  
+  .history-slide {
+    background: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    
+  }
+  
+  .history-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .history-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .history-event-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .history-description-container {
+    max-height: 80px;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+  }
+
+  .history-description {
+    color: black;
+  }
+  
+  .history-description-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .history-description-container::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 5px;
+  }
+
+  .history-timeline {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .timeline-year {
+    font-size: 0.9rem;
+    color: #6c757d;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .active-year {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+  }
